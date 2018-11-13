@@ -3,7 +3,7 @@ To reproduce:
 ```
 $ perl6 -Ilib/Bad t/segv.t
 Segmentation fault (core dumped)
-$ $(which perl6) -Ilib/Good t/segv.t
+$ perl6 -Ilib/Good t/segv.t
 $
 ```
 
